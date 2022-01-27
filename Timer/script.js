@@ -1,4 +1,3 @@
-
 function countDown() {
   const today = new Date().getTime();
   const birthday = "26 September 2022";

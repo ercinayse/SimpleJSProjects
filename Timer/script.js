@@ -8,6 +8,7 @@ function countDown() {
   const remainHours = Math.floor((diff / 3600) % 24);
   const remainMinutes = Math.floor((diff / 60) % 60);
   const remainSeconds = Math.floor(diff % 60);
+  
   document.getElementById("days").innerHTML = remainDays;
   document.getElementById("hours").innerHTML = remainHours;
   document.getElementById("minutes").innerHTML = remainMinutes;
